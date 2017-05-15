@@ -1,0 +1,16 @@
+PODS:
+  - HelloBerwin (0.1.0)
+
+DEPENDENCIES:
+  - HelloBerwin (from `../`)
+
+EXTERNAL SOURCES:
+  HelloBerwin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HelloBerwin: 37a60333fa7843f89032f2839d73d623bfb37b99
+
+PODFILE CHECKSUM: 7653871a7b5c1400f3f492ae22b2181455d837f8
+
+COCOAPODS: 1.2.1

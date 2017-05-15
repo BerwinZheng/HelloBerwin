@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AB9E42EE58156183684F6A5AC781BD /* Pods-HelloBerwin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAF10F3D6F8D9B6B3AFF4A6C2D0F5E9 /* Pods-HelloBerwin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		074C8599E8640423C4DA7D5A492C8163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		08C33FFF7ABF2B9E41550C6A11A340DD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9CA4667F6D3981F020733B25DE5A /* ReplaceMe.m */; };
+		270E98842F1B55D285FCD2F7D8107FAB /* Pods-HelloBerwin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9699526FF7761983799BA67F328CE433 /* Pods-HelloBerwin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E2C1EE9EE605D75C4EFA22340E14CA /* HelloBerwin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641129E6AED7475F1DA6FC108BA8461E /* HelloBerwin-dummy.m */; };
+		2BE52812B4CFA9107B92519CF8A30334 /* Pods-HelloBerwin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFED4535818D22A158AD6C8874D15F0 /* Pods-HelloBerwin_Tests-dummy.m */; };
+		84A50506475430339987C23244C4340D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		886E8A44FD670C76E547D95FB5F09DB3 /* Pods-HelloBerwin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EFB654E833130823D6B1E755B41D0E /* Pods-HelloBerwin_Example-dummy.m */; };
+		AFD27C804FA145462BA0DA7C982C4F37 /* HelloBerwin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4940C0BD33D0C289643D5E69178025D9 /* HelloBerwin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF37D6813E8C7BCB94BE38D968214EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D3965F0A7C464867AE46E0513B6C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6741FB91C76801E7577B62FC4FA0EB96;
+			remoteInfo = HelloBerwin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CB03D056F67374FBC2B9076D6F2CFD /* Pods-HelloBerwin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HelloBerwin_Tests.modulemap"; sourceTree = "<group>"; };
+		0EF9C2DFE11CE70CC231ADADC96EEBB0 /* Pods-HelloBerwin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloBerwin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		19EBDD07A1A2417B4E92E9DB594DB2D8 /* Pods-HelloBerwin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloBerwin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AC8366EC027D621C4A77C6695D0A89C /* Pods-HelloBerwin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloBerwin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F6942E1231C5C98E56425857B60D9C6 /* HelloBerwin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HelloBerwin.modulemap; sourceTree = "<group>"; };
+		224F851964F8AA53A2F7415FB6722FDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C552218CFA8F859382D2D43FBA22B6E /* Pods-HelloBerwin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloBerwin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E4A5F31411F8D020900D0C38322949D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFED4535818D22A158AD6C8874D15F0 /* Pods-HelloBerwin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloBerwin_Tests-dummy.m"; sourceTree = "<group>"; };
+		43195D65CD42CD43215E2D3BC4C9A37E /* Pods-HelloBerwin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloBerwin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4940C0BD33D0C289643D5E69178025D9 /* HelloBerwin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloBerwin-umbrella.h"; sourceTree = "<group>"; };
+		51FDF25EE5DE62F772902678DB7E78BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54601A21EBBD23C14FB5A4F2E53B74F1 /* Pods_HelloBerwin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloBerwin_Tests.framework; path = "Pods-HelloBerwin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611B69ADAA2BB870B8C57C2263D43322 /* Pods-HelloBerwin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloBerwin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		641129E6AED7475F1DA6FC108BA8461E /* HelloBerwin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HelloBerwin-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		798D9CA4667F6D3981F020733B25DE5A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		90BF4318A2C4E0F00EB2CE156221FC34 /* Pods_HelloBerwin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloBerwin_Example.framework; path = "Pods-HelloBerwin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9699526FF7761983799BA67F328CE433 /* Pods-HelloBerwin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloBerwin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A2DEF0F524D18CD7F1538D7054C6662D /* HelloBerwin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HelloBerwin.xcconfig; sourceTree = "<group>"; };
+		A7156812B0B56E5520482AAA9248158B /* Pods-HelloBerwin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloBerwin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6FF503A387239B1EA41820FDECE5FA /* HelloBerwin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloBerwin-prefix.pch"; sourceTree = "<group>"; };
+		BDB3612A613A376CBC0CF1A7E07703C0 /* Pods-HelloBerwin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloBerwin_Example-resources.sh"; sourceTree = "<group>"; };
+		C98898C2068C574E8ACE51092EC91D34 /* Pods-HelloBerwin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloBerwin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CDF13B1877EBB9E61D427CDC53BAC9FF /* HelloBerwin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HelloBerwin.framework; path = HelloBerwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E161E3ECF17BED2054645B5CEA7B8698 /* Pods-HelloBerwin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HelloBerwin_Example.modulemap"; sourceTree = "<group>"; };
+		E3EFB654E833130823D6B1E755B41D0E /* Pods-HelloBerwin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloBerwin_Example-dummy.m"; sourceTree = "<group>"; };
+		EA1CAF2114786B988D445E256DA7EF46 /* Pods-HelloBerwin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloBerwin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAF10F3D6F8D9B6B3AFF4A6C2D0F5E9 /* Pods-HelloBerwin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloBerwin_Example-umbrella.h"; sourceTree = "<group>"; };
+		EC517DC296AD044A992575998B088CF6 /* Pods-HelloBerwin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloBerwin_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FDF8C70E27C3ED009D575C1506C46F8A /* Pods-HelloBerwin_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloBerwin_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20544EB3CF9F3EC5F45185AAB9B8EEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A50506475430339987C23244C4340D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8F24009FBAE46690ADFD2FB05F7ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF37D6813E8C7BCB94BE38D968214EEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF94E0E15E3B06CFE0E32977C3193E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C8599E8640423C4DA7D5A492C8163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26991049CFF3A108AB5E89735B0FE722 /* HelloBerwin */ = {
+			isa = PBXGroup;
+			children = (
+				2B490F426C78A207C39445B5184E25B0 /* HelloBerwin */,
+				6B58818D43A788204A060EBA56FE3F6D /* Support Files */,
+			);
+			name = HelloBerwin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B490F426C78A207C39445B5184E25B0 /* HelloBerwin */ = {
+			isa = PBXGroup;
+			children = (
+				9BED20969EFB484AA13D992FF5361A7E /* Classes */,
+			);
+			name = HelloBerwin;
+			path = HelloBerwin;
+			sourceTree = "<group>";
+		};
+		483751D1125CB565BDD119C9B9BAA968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF13B1877EBB9E61D427CDC53BAC9FF /* HelloBerwin.framework */,
+				90BF4318A2C4E0F00EB2CE156221FC34 /* Pods_HelloBerwin_Example.framework */,
+				54601A21EBBD23C14FB5A4F2E53B74F1 /* Pods_HelloBerwin_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509DF6E2DF712CA14FB7939DD78A3B2E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD0982765C3C02B5B44E41339B18A39C /* Pods-HelloBerwin_Example */,
+				C8612822655CC4EC3EF407D6890F69C5 /* Pods-HelloBerwin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B58818D43A788204A060EBA56FE3F6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6942E1231C5C98E56425857B60D9C6 /* HelloBerwin.modulemap */,
+				A2DEF0F524D18CD7F1538D7054C6662D /* HelloBerwin.xcconfig */,
+				641129E6AED7475F1DA6FC108BA8461E /* HelloBerwin-dummy.m */,
+				AA6FF503A387239B1EA41820FDECE5FA /* HelloBerwin-prefix.pch */,
+				4940C0BD33D0C289643D5E69178025D9 /* HelloBerwin-umbrella.h */,
+				51FDF25EE5DE62F772902678DB7E78BA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HelloBerwin";
+			sourceTree = "<group>";
+		};
+		709C77C1F1D1287B0FB2CB84BB399A1A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26991049CFF3A108AB5E89735B0FE722 /* HelloBerwin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				709C77C1F1D1287B0FB2CB84BB399A1A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				483751D1125CB565BDD119C9B9BAA968 /* Products */,
+				509DF6E2DF712CA14FB7939DD78A3B2E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BED20969EFB484AA13D992FF5361A7E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				798D9CA4667F6D3981F020733B25DE5A /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD0982765C3C02B5B44E41339B18A39C /* Pods-HelloBerwin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E4A5F31411F8D020900D0C38322949D /* Info.plist */,
+				E161E3ECF17BED2054645B5CEA7B8698 /* Pods-HelloBerwin_Example.modulemap */,
+				1AC8366EC027D621C4A77C6695D0A89C /* Pods-HelloBerwin_Example-acknowledgements.markdown */,
+				0EF9C2DFE11CE70CC231ADADC96EEBB0 /* Pods-HelloBerwin_Example-acknowledgements.plist */,
+				E3EFB654E833130823D6B1E755B41D0E /* Pods-HelloBerwin_Example-dummy.m */,
+				C98898C2068C574E8ACE51092EC91D34 /* Pods-HelloBerwin_Example-frameworks.sh */,
+				BDB3612A613A376CBC0CF1A7E07703C0 /* Pods-HelloBerwin_Example-resources.sh */,
+				EBAF10F3D6F8D9B6B3AFF4A6C2D0F5E9 /* Pods-HelloBerwin_Example-umbrella.h */,
+				EA1CAF2114786B988D445E256DA7EF46 /* Pods-HelloBerwin_Example.debug.xcconfig */,
+				2C552218CFA8F859382D2D43FBA22B6E /* Pods-HelloBerwin_Example.release.xcconfig */,
+			);
+			name = "Pods-HelloBerwin_Example";
+			path = "Target Support Files/Pods-HelloBerwin_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8612822655CC4EC3EF407D6890F69C5 /* Pods-HelloBerwin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				224F851964F8AA53A2F7415FB6722FDE /* Info.plist */,
+				05CB03D056F67374FBC2B9076D6F2CFD /* Pods-HelloBerwin_Tests.modulemap */,
+				19EBDD07A1A2417B4E92E9DB594DB2D8 /* Pods-HelloBerwin_Tests-acknowledgements.markdown */,
+				611B69ADAA2BB870B8C57C2263D43322 /* Pods-HelloBerwin_Tests-acknowledgements.plist */,
+				3FFED4535818D22A158AD6C8874D15F0 /* Pods-HelloBerwin_Tests-dummy.m */,
+				EC517DC296AD044A992575998B088CF6 /* Pods-HelloBerwin_Tests-frameworks.sh */,
+				FDF8C70E27C3ED009D575C1506C46F8A /* Pods-HelloBerwin_Tests-resources.sh */,
+				9699526FF7761983799BA67F328CE433 /* Pods-HelloBerwin_Tests-umbrella.h */,
+				A7156812B0B56E5520482AAA9248158B /* Pods-HelloBerwin_Tests.debug.xcconfig */,
+				43195D65CD42CD43215E2D3BC4C9A37E /* Pods-HelloBerwin_Tests.release.xcconfig */,
+			);
+			name = "Pods-HelloBerwin_Tests";
+			path = "Target Support Files/Pods-HelloBerwin_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B441ACAE03E1D4D54CC5D9AFE467255 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AB9E42EE58156183684F6A5AC781BD /* Pods-HelloBerwin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A17CBAD920477D49AE696390E90CBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD27C804FA145462BA0DA7C982C4F37 /* HelloBerwin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA503F343261A1B41CFCD11703433180 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270E98842F1B55D285FCD2F7D8107FAB /* Pods-HelloBerwin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6741FB91C76801E7577B62FC4FA0EB96 /* HelloBerwin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44B98385F48B132FC67C2617452F2D7 /* Build configuration list for PBXNativeTarget "HelloBerwin" */;
+			buildPhases = (
+				CA3EAA0FE78C0386C13654053273B8FB /* Sources */,
+				DF94E0E15E3B06CFE0E32977C3193E96 /* Frameworks */,
+				C5A17CBAD920477D49AE696390E90CBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloBerwin;
+			productName = HelloBerwin;
+			productReference = CDF13B1877EBB9E61D427CDC53BAC9FF /* HelloBerwin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F7A06586CBF4C84770C2300782D53C1 /* Pods-HelloBerwin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAF69BFC7E3D952B96F441E383B6726 /* Build configuration list for PBXNativeTarget "Pods-HelloBerwin_Example" */;
+			buildPhases = (
+				9AC2C0EB1D98E0C98518C2387DE92DC0 /* Sources */,
+				20544EB3CF9F3EC5F45185AAB9B8EEC7 /* Frameworks */,
+				9B441ACAE03E1D4D54CC5D9AFE467255 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815907837BC9F1F756D4502ADE988DB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloBerwin_Example";
+			productName = "Pods-HelloBerwin_Example";
+			productReference = 90BF4318A2C4E0F00EB2CE156221FC34 /* Pods_HelloBerwin_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF6E21C00146E21504A74DC58E8B0438 /* Pods-HelloBerwin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9B6A5B997212DF6E907E7A43B7256F /* Build configuration list for PBXNativeTarget "Pods-HelloBerwin_Tests" */;
+			buildPhases = (
+				B6D344C0627949028DC1951F8BD678B5 /* Sources */,
+				5E8F24009FBAE46690ADFD2FB05F7ECA /* Frameworks */,
+				FA503F343261A1B41CFCD11703433180 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HelloBerwin_Tests";
+			productName = "Pods-HelloBerwin_Tests";
+			productReference = 54601A21EBBD23C14FB5A4F2E53B74F1 /* Pods_HelloBerwin_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 483751D1125CB565BDD119C9B9BAA968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6741FB91C76801E7577B62FC4FA0EB96 /* HelloBerwin */,
+				7F7A06586CBF4C84770C2300782D53C1 /* Pods-HelloBerwin_Example */,
+				AF6E21C00146E21504A74DC58E8B0438 /* Pods-HelloBerwin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC2C0EB1D98E0C98518C2387DE92DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886E8A44FD670C76E547D95FB5F09DB3 /* Pods-HelloBerwin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D344C0627949028DC1951F8BD678B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE52812B4CFA9107B92519CF8A30334 /* Pods-HelloBerwin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3EAA0FE78C0386C13654053273B8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E2C1EE9EE605D75C4EFA22340E14CA /* HelloBerwin-dummy.m in Sources */,
+				08C33FFF7ABF2B9E41550C6A11A340DD /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		815907837BC9F1F756D4502ADE988DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HelloBerwin;
+			target = 6741FB91C76801E7577B62FC4FA0EB96 /* HelloBerwin */;
+			targetProxy = D2D3965F0A7C464867AE46E0513B6C41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EFA33F268673600663D0003AAAC0B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DEF0F524D18CD7F1538D7054C6662D /* HelloBerwin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HelloBerwin/HelloBerwin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HelloBerwin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HelloBerwin/HelloBerwin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HelloBerwin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		666B4403BF9822FBFC517F18AD2DA931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7156812B0B56E5520482AAA9248158B /* Pods-HelloBerwin_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloBerwin_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloBerwin_Tests/Pods-HelloBerwin_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloBerwin_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7856A5ED05E1E5606BAF9120DD3B1DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DEF0F524D18CD7F1538D7054C6662D /* HelloBerwin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HelloBerwin/HelloBerwin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HelloBerwin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HelloBerwin/HelloBerwin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HelloBerwin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D15F2B3145792D1395E2F3348D078393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1CAF2114786B988D445E256DA7EF46 /* Pods-HelloBerwin_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloBerwin_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloBerwin_Example/Pods-HelloBerwin_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloBerwin_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D536B35B1CB120AABF607DCAB3A693F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C552218CFA8F859382D2D43FBA22B6E /* Pods-HelloBerwin_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloBerwin_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloBerwin_Example/Pods-HelloBerwin_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloBerwin_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF2EE3AAB14CE61E60572B1C208AE6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43195D65CD42CD43215E2D3BC4C9A37E /* Pods-HelloBerwin_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloBerwin_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloBerwin_Tests/Pods-HelloBerwin_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloBerwin_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9B6A5B997212DF6E907E7A43B7256F /* Build configuration list for PBXNativeTarget "Pods-HelloBerwin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666B4403BF9822FBFC517F18AD2DA931 /* Debug */,
+				FF2EE3AAB14CE61E60572B1C208AE6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAF69BFC7E3D952B96F441E383B6726 /* Build configuration list for PBXNativeTarget "Pods-HelloBerwin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15F2B3145792D1395E2F3348D078393 /* Debug */,
+				D536B35B1CB120AABF607DCAB3A693F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44B98385F48B132FC67C2617452F2D7 /* Build configuration list for PBXNativeTarget "HelloBerwin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFA33F268673600663D0003AAAC0B85 /* Debug */,
+				7856A5ED05E1E5606BAF9120DD3B1DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

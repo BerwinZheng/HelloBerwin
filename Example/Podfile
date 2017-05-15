@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HelloBerwin_Example' do
+  pod 'HelloBerwin', :path => '../'
+
+  target 'HelloBerwin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module HelloBerwin {
+  umbrella header "HelloBerwin-umbrella.h"
+
+  export *
+  module * { export * }
+}
